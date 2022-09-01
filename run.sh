@@ -9,6 +9,3 @@ kubectl create -f k8s/
   -t deployment  --without-terminal  -s $CODEDIR --container test \
   -i $BASEIMAGE  -n default \
   --kubeconfig $KUBECONFIG
-
-
-registry.cn-hongkong.aliyuncs.com/h8rdev/devbox
